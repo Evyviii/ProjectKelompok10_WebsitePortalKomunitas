@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>my.hobbylab - Form Pendaftaran</title>
+  <link rel="stylesheet" href="../css/gabung.css">
+</head>
+<body>
+
+    <div class="bungkus-formulir">
+        <div class="kartu-formulir">
+        
+            <div class="logo">
+                <img src="../assets/icons/logo.png" alt="logo" width="35">y.hobbylab
+            </div>
+        
+            <h2>Form Pendaftaran</h2>
+
+            <form action="#" method="POST" class="formulir">
+                
+                <div class="kelompok-input">
+                <span><img src="../assets/icons/user.png" alt="" width="16"></span>
+                <input type="text" placeholder="Nama Lengkap" required>
+                </div>
+
+                <div class="kelompok-input">
+                <span><img src="../assets/icons/email.png" alt="" width="16"></span>
+                <input type="email" placeholder="Email" required>
+                </div>
+
+                <div class="kelompok-input">
+                    <select required>
+                        <option value="" disabled selected hidden>Hobi yang Anda Sukai?</option>
+                        <option value="berkebun">Berkebun</option>
+                        <option value="gaming">Gaming</option>
+                        <option value="seni">Seni</option>
+                        <option value="olahraga">Olahraga</option>
+                        <option value="lainnya">Lainnya..</option>
+                    </select>
+                </div>
+
+                <div class="kelompok-centang">
+                <input type="checkbox" id="syarat" required>
+                <label for="syarat">saya menyetujui semua syarat & ketentuan yang berlaku</label>
+                </div>
+
+                <button type="submit" class="tombol-daftar"><a href="../index.html">Daftar</a></button>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
